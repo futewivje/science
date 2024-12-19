@@ -6,7 +6,12 @@ body {
   background-color: #f4f4f4;
   color: #333;
 }
-
+.pic img {
+  width: 500px; /* Set width for smaller size */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  margin: 0 auto; /* Center the image */
+}
 header {
   background: #0078d7;
   color: white;
